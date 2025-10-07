@@ -1,8 +1,7 @@
-import React from "react";
 import { BiLogOut } from "react-icons/bi";
 import useLogout from "../../hooks/useLogout";
 
-function LogutButton() {
+function LogoutButton() {
   const { loading, logout } = useLogout();
 
   return (
@@ -19,4 +18,4 @@ function LogutButton() {
   );
 }
 
-export default LogutButton;
+export default LogoutButton;
